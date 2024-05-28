@@ -1,0 +1,355 @@
+{
+    "schools": [
+      {
+        "id": 1,
+        "name": "ABC School",
+        "type": "Primary",
+        "product": "Zeraki Analytics",
+        "county": "Nairobi",
+        "registrationDate": "2022-01-01",
+        "contact": {
+          "email": "abc@school.com",
+          "phone": "0712345678"
+        },
+        "balance": 50000
+      },
+      {
+        "id": 2,
+        "name": "DEF School",
+        "type": "Primary",
+        "product": "Zeraki Analytics",
+        "county": "Nakuru",
+        "registrationDate": "2022-01-01",
+        "contact": {
+          "email": "DEF@school.com",
+          "phone": "0713345787"
+        },
+        "balance": 60000
+      },
+      {
+        "id": 3,
+        "name": "GHI School",
+        "type": "Primary",
+        "product": "Zeraki Analytics",
+        "county": "Mombasa",
+        "registrationDate": "2022-01-01",
+        "contact": {
+          "email": "ghi@school.com",
+          "phone": "0714345267"
+        },
+        "balance": 20000
+      },
+      {
+        "id": 4,
+        "name": "JKL School",
+        "type": "Primary",
+        "product": "Zeraki Analytics",
+        "county": "Kisumu",
+        "registrationDate": "2022-01-01",
+        "contact": {
+          "email": "jkl@school.com",
+          "phone": "0715345456"
+        },
+        "balance": 30000
+      },
+      {
+        "id": 5,
+        "name": "MNO School",
+        "type": "Primary",
+        "product": "Zeraki Analytics",
+        "county": "Nairobi",
+        "registrationDate": "2022-01-01",
+        "contact": {
+          "email": "mno@school.com",
+          "phone": "0716345230"
+        },
+        "balance": 10000
+      },
+      {
+        "id": 6,
+        "name": "PQR School",
+        "type": "Primary",
+        "product": "Zeraki Analytics",
+        "county": "Busia",
+        "registrationDate": "2022-01-01",
+        "contact": {
+          "email": "pqr@school.com",
+          "phone": "0717345980"
+        },
+        "balance": 70000
+      },
+      {
+        "id": 7,
+        "name": "STU School",
+        "type": "Primary",
+        "product": "Zeraki Analytics",
+        "county": "Meru",
+        "registrationDate": "2022-01-01",
+        "contact": {
+          "email": "stu@school.com",
+          "phone": "0719345570"
+        },
+        "balance": 50000
+      },
+      {
+        "id": 8,
+        "name": "VWX School",
+        "type": "Primary",
+        "product": "Zeraki Analytics",
+        "county": "Naivasha",
+        "registrationDate": "2022-01-01",
+        "contact": {
+          "email": "vwx@school.com",
+          "phone": "072034678"
+        },
+        "balance": 65000
+      }
+      
+    ],
+    "invoices": [
+      {
+        "id": 1,
+        "schoolId": 1,
+        "invoiceNumber": "INV001",
+        "item": "Zeraki Analytics",
+        "createdAt": "2023-04-01",
+        "dueDate": "2023-05-01",
+        "amount": 100000,
+        "paidAmount": 50000,
+        "balance": 50000,
+        "completed": false,
+        "daysUntilDue": 30
+      },
+      {
+        "id": 2,
+        "schoolId": 2,
+        "invoiceNumber": "INV001",
+        "item": "Zeraki Analytics",
+        "createdAt": "2023-04-01",
+        "dueDate": "2023-05-10",
+        "amount": 100000,
+        "paidAmount": 40000,
+        "balance": 60000,
+        "completed": false,
+        "daysUntilDue": 40
+      },
+      {
+        "id": 3,
+        "schoolId": 3,
+        "invoiceNumber": "INV001",
+        "item": "Zeraki Analytics",
+        "createdAt": "2023-04-01",
+        "dueDate": "2023-04-10",
+        "amount": 100000,
+        "paidAmount": 80000,
+        "balance": 20000,
+        "completed": false,
+        "daysUntilDue": 10
+      },
+      {
+        "id": 4,
+        "schoolId": 4,
+        "invoiceNumber": "INV001",
+        "item": "Zeraki Analytics",
+        "createdAt": "2023-04-01",
+        "dueDate": "2023-04-20",
+        "amount": 100000,
+        "paidAmount": 70000,
+        "balance": 30000,
+        "completed": false,
+        "daysUntilDue": 20
+      },
+      {
+        "id": 5,
+        "schoolId": 5,
+        "invoiceNumber": "INV001",
+        "item": "Zeraki Analytics",
+        "createdAt": "2023-04-01",
+        "dueDate": "2023-04-10",
+        "amount": 100000,
+        "paidAmount": 90000,
+        "balance": 10000,
+        "completed": false,
+        "daysUntilDue": 10
+      },
+      {
+        "id": 6,
+        "schoolId": 6,
+        "invoiceNumber": "INV001",
+        "item": "Zeraki Analytics",
+        "createdAt": "2023-04-01",
+        "dueDate": "2023-06-01",
+        "amount": 100000,
+        "paidAmount": 30000,
+        "balance": 70000,
+        "completed": false,
+        "daysUntilDue": 60
+      },
+      {
+        "id": 7,
+        "schoolId": 7,
+        "invoiceNumber": "INV001",
+        "item": "Zeraki Analytics",
+        "createdAt": "2023-04-01",
+        "dueDate": "2023-05-01",
+        "amount": 100000,
+        "paidAmount": 50000,
+        "balance": 50000,
+        "completed": false,
+        "daysUntilDue": 30
+      },
+      {
+        "id": 8,
+        "schoolId": 8,
+        "invoiceNumber": "INV001",
+        "item": "Zeraki Analytics",
+        "createdAt": "2023-04-01",
+        "dueDate": "2023-05-20",
+        "amount": 100000,
+        "paidAmount": 35000,
+        "balance": 65000,
+        "completed": false,
+        "daysUntilDue": 50
+      }
+    ],
+    "collections": [
+      {
+        "id": 1,
+        "schoolId": 1,
+        "invoiceId": 1,
+        "collectionNumber": "COL001",
+        "date": "2023-04-15",
+        "status": "Valid",
+        "amount": 50000
+      },
+      {
+        "id": 2,
+        "schoolId": 2,
+        "invoiceId": 1,
+        "collectionNumber": "COL001",
+        "date": "2023-04-15",
+        "status": "Valid",
+        "amount": 40000
+      },
+      {
+        "id": 3,
+        "schoolId": 3,
+        "invoiceId": 1,
+        "collectionNumber": "COL001",
+        "date": "2023-04-15",
+        "status": "Valid",
+        "amount": 80000
+      },
+      {
+        "id": 4,
+        "schoolId": 4,
+        "invoiceId": 1,
+        "collectionNumber": "COL001",
+        "date": "2023-04-15",
+        "status": "Valid",
+        "amount": 70000
+      },
+      {
+        "id": 5,
+        "schoolId": 5,
+        "invoiceId": 1,
+        "collectionNumber": "COL001",
+        "date": "2023-04-15",
+        "status": "Valid",
+        "amount": 90000
+      },
+      {
+        "id": 6,
+        "schoolId": 6,
+        "invoiceId": 1,
+        "collectionNumber": "COL001",
+        "date": "2023-04-15",
+        "status": "Valid",
+        "amount": 30000
+      },
+      {
+        "id": 7,
+        "schoolId": 7,
+        "invoiceId": 1,
+        "collectionNumber": "COL001",
+        "date": "2023-04-15",
+        "status": "Valid",
+        "amount": 50000
+      },
+      {
+        "id": 8,
+        "schoolId": 8,
+        "invoiceId": 1,
+        "collectionNumber": "COL001",
+        "date": "2023-04-15",
+        "status": "Valid",
+        "amount": 35000
+      }
+    ],
+    "Dashboard":[
+        {
+            "topCardMetrics": {
+              "collections": 1234,
+              "signups": {
+                "zerakiAnalytics": 50,
+                "zerakiFinance": 30,
+                "zerakiTimetable": 20
+              },
+              "totalRevenue": {
+                "zerakiAnalytics": 50000,
+                "zerakiFinance": 30000,
+                "zerakiTimetable": 20000
+              },
+              "bouncedCheques": 10
+            },
+            "targetsVisualization": {
+              "zerakiAnalytics": {
+                "target": 100,
+                "achieved": 50
+              },
+              "zerakiFinance": {
+                "target": 80,
+                "achieved": 30
+              },
+              "zerakiTimetable": {
+                "target": 60,
+                "achieved": 20
+              }
+            },
+            "signupsOverview": {
+              "zerakiAnalytics": {
+                "primary": 20,
+                "secondary": 15,
+                "igcse": 15
+              },
+              "zerakiFinance": {
+                "primary": 10,
+                "secondary": 10,
+                "igcse": 10
+              },
+              "zerakiTimetable": {
+                "primary": 5,
+                "secondary": 10,
+                "igcse": 5
+              }
+            },
+            "upcomingInvoices": [
+              {
+                "schoolName": "School A",
+                "amount": 5000,
+                "dueDate": "2024-06-01"
+              },
+              {
+                "schoolName": "School B",
+                "amount": 8000,
+                "dueDate": "2024-06-05"
+              },
+              {
+                "schoolName": "School C",
+                "amount": 3000,
+                "dueDate": "2024-06-10"
+              }
+            ]
+          }
+    ]
+  }

@@ -1,0 +1,35 @@
+<div class="upcoming-invoices">
+    <h3>Upcoming Invoices</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>School Name</th>
+          <th>Amount Due</th>
+          <th>Due Date</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let invoice of data">
+          <td>{{ invoice.schoolName }}</td>
+          <td>{{ invoice.amount }}</td>
+          <td>{{ invoice.dueDate }}</td>
+          <td>
+            <button (click)="openPaymentModal(invoice)">Collect Payment</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <!-- Payment Modal -->
+  <div class="modal" *ngIf="selectedInvoice">
+    <div class="modal-content">
+      <span class="close" (click)="closePaymentModal()">&times;</span>
+      <h3>Collect Payment</h3>
+      <form>
+        <!-- Add form fields for collecting payment details here -->
+        <button type="submit">Submit Payment</button>
+      </form>
+    </div>
+  </div>
